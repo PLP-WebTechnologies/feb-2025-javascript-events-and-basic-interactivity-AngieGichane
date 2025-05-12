@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Event Handling Styles */
+#hoverBox {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+}
+
+/* Interactive Elements Styles */
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gallery img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+/* Tabs Styles */
+.tabs .tab-buttons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tabs .tab-btn {
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.tabs .tab-btn.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.tabs .tab-content .tab {
+    display: none;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.tabs .tab-content .tab.active {
+    display: block;
+}
+
+/* Form Validation Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Animation and Hover Effects */
+#colorButton {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#colorButton:hover {
+    transform: scale(1.05);
+}
+
+.hover-box:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
